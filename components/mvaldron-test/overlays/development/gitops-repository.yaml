@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: mvaldron-test-gitops-repository
+spec:
+  url: https://github.com/stephanie-cy/mvaldron-test-gitops
